@@ -14,7 +14,7 @@ use Monolog\Handler\StreamHandler;
 class Log
 {
     private $logger;
-    private $path ='src/errors.log';
+    private $path ='errors.log';
     public function __construct($name)
     {
         $this->logger = new Logger($name);
