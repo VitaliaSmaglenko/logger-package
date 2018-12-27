@@ -1,0 +1,22 @@
+{
+    "name": "vitalia/logger-package",
+    "description": "Package for logging",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "monolog/monolog": "^1.24"
+    },
+    "authors": [
+        {
+            "name": "VitaliaSmaglenko",
+            "email": "vitaliasmaglenko@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {"Logger\\": "src/"}
+    },
+
+    "minimum-stability": "stable"
+
+}
